@@ -28,7 +28,8 @@ services:
           memory: 200M
 
   db:
-    image: postgres
+    image: arm64v8/postgres
+    #image: arm64v8/postgres
     networks:
       - sonarnet
     environment:
