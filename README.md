@@ -27,7 +27,6 @@ Also more advanced commands on how to create networks and connect them between v
     <li>docker build -t name_image 'path_directory_app' or '.'</li>
     <li>docker run -d -p 80:80 -v path_directory_app:/var/www/html --name name_container name_image</li>
 </ul>
-<br>
 
 # Run This Project
 <ol>
