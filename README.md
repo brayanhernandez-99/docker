@@ -15,11 +15,12 @@ Also more advanced commands on how to create networks and connect them between v
 </ul>
 <ul>
   <li>docker ps                = List containers actives.</li>
-  <li>docker ps -a             = List containers actives, inactives.</li>
-  <li>docker container ls -a   = List containers actives, inactives.</li>
+  <li>docker ps -a             = List of active and inactive containers.</li>
+  <li>docker container ls -a   = List of active and inactive containers.</li>
   <li>docker images            = List of images.</li>
   <li>docker stats             = Stadistics CPU.</li>
   <li>docker start {container} = Star container.</li>
+  <li>docker exec {container}  = Run commands on a started container.</li>
   <li>docker stop {container}  = Stop container.</li>
   <li>docker kill {container}  = Kill container.</li>
 </ul>
