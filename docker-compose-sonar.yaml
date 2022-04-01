@@ -1,4 +1,6 @@
-version: "3"
+# https://desarrollofront.medium.com/las-10-instrucciones-imprescindibles-para-crear-un-dockerfile-bb439ff836d9
+
+ version: "3"
 
 services:
   sonarqube:
