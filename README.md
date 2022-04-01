@@ -14,8 +14,8 @@ Also more advanced commands on how to create networks and connect them between v
   <li>--help = Help</li>
 </ul>
 <ul>
-  <li>docker ps                   = Containers actives.</li>
-  <li>docker ps -a                = Containers inactives.</li>
+  <li>docker ps                   = List ontainers actives.</li>
+  <li>docker ps -a                = List containers actives, inactives.</li>
   <li>docker images               = List of images.</li>
   <li>docker stats                = Stadistics CPU.</li>
   <li>docker start name_container = Star container.</li>
