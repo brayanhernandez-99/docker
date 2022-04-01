@@ -14,13 +14,14 @@ Also more advanced commands on how to create networks and connect them between v
   <li>--help = Help</li>
 </ul>
 <ul>
-  <li>docker ps                   = List containers actives.</li>
-  <li>docker ps -a                = List containers actives, inactives.</li>
-  <li>docker images               = List of images.</li>
-  <li>docker stats                = Stadistics CPU.</li>
-  <li>docker start name_container = Star container.</li>
-  <li>docker stop name_container  = Stop container.</li>
-  <li>docker kill name_container  = Kill container.</li>
+  <li>docker ps                = List containers actives.</li>
+  <li>docker ps -a             = List containers actives, inactives.</li>
+  <li>docker container ls -a   = List containers actives, inactives.</li>
+  <li>docker images            = List of images.</li>
+  <li>docker stats             = Stadistics CPU.</li>
+  <li>docker start {container} = Star container.</li>
+  <li>docker stop {container}  = Stop container.</li>
+  <li>docker kill {container}  = Kill container.</li>
 </ul>
 <ul>
     <li>docker build -t name_image 'path_directory_app' or '.'</li>
